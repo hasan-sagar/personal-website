@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+#hero {
+  height: 650px;
+  width: 100%;
+ background-image: url("./images/one-taka-meal-slider-7-bidyanondo-1557827064.jpg");
+ background-repeat: no-repeat;
+ color: whitesmoke;
+}
+.hero-container {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin:  auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.info{
+    margin: auto;
+}
+.info h1 {
+  color: #face1c;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.info p {
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+.info a{
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    padding: 16px 35px;
+    background-color: #22d1ee;
+}
+#donate{
+    height: 550px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.donate-container{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.donate-info{
+    margin: auto;
+}
+.donate-info h1{
+    color: #face1c;
+    font-size: 47px;
+    margin-bottom: 8px;
+}
+.donate-info p{
+    font-size: 19px;
+    margin-bottom: 45px;
+}
+.donate-info input{
+    margin-bottom: 20px;
+    padding: 15px 40px;
+    width: 650px;
+    margin-bottom: 30px;
+}
+.donate-info a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 12px 22px;
+    background-color: #22d1ee;
+}
+
+#donate-type{
+  height: 450px;
+  width: 100%;
+  background-color: aliceblue;
+  text-align: center;
+}
+#donate-type h1{
+  color: #face1c;
+  font-size: 47px;
+  margin-bottom: 40px;
+}
+
+.donate-type-info{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.types {
+  padding: 50px;
+  margin: 15px;
+  font-size: 30px;
+  line-height: 40px;
+}
+.month{
+  font-size: 25px;
+  background-color: #EDF5F6;
+}
+.family{
+  font-size: 25px;
+  background-color: #FFEEEE;
+}
+.student{
+  font-size: 25px;
+  background-color: #FFF4D6;
+}
+#image-desc{
+  height: 650px;
+  width: 100%;
+  background-color: aliceblue;
+}
+.image-desc-container{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.image-desc-container img{
+  max-width: 100%;
+  max-height: 400px;
+}
+.image-desc-info{
+  margin: 100px;
+}
+.image-desc-info h1{
+  color: #face1c;
+  font-size: 47px;
+  margin-bottom: 30px;
+}
+.image-desc-info p{
+  font-size: 17px;
+  margin-bottom: 22px;
+}
+.image-desc-info a{
+  font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 12px 22px;
+    background-color: #22d1ee;
+}
+#update-section{
+  width: 100%;
+  height: 250px;
+  background-color: aliceblue;
+}
+.update-section-container{
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin:  auto;
+  align-items: center;
+  text-align: center;
+}
+.update-section-info h1{
+  font-size: 47px;
+  color: #face1c;
+  margin-bottom: 10px;
+}
+.update-section-info p{
+  font-size: 17px;
+  margin-bottom: 32px;
+}
+.update-section-info input{
+  margin-bottom: 20px;
+  padding: 16px 40px;
+  width: 650px;
+}
+.update-section-info a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 14px 55px;
+    background-color: #22d1ee;
+}
+#footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+}
+.footer-info{
+  max-width: 1200px;
+  margin: auto;
+
+}
+.footer-info h1{
+  font-size: 25px;
+  color: #face1c;
+  margin-bottom: 10px;
+}
+.footer-info p{
+  color: #EDF5F6;
+}
